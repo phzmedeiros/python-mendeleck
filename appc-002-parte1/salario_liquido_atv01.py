@@ -26,5 +26,6 @@ desconto_renda = salario_bruto * PIR
 salario_liquido = salario_bruto - desconto_renda
 
 # SAIDA DE DADOS
-print(salario_bruto)
-print(salario_liquido)
+print("\n**************************************************")
+print("\nO correspondente salário bruto é R$",salario_bruto)
+print("\nO valor total do salário liquido é R$",salario_liquido)
