@@ -1,31 +1,31 @@
-# TITULO DO PROGRAMA
-print("**************************************************")
-print("***CALCULADORA DE SALARIO LIQUIDO RAPIDOPOLENSE***")
-print("**************************************************")
+# CALCULADORA DE SALÁRIO LÍQUIDO
+print("****************************************************")
+print("*** CALCULADORA DE SALÁRIO LÍQUIDO RAPIDOPOLENSE ***")
+print("****************************************************")
 
-# ENTRADA DE DADOS - HORAS E SALARIO HORA
-salario_hora = float(input("\nDigite o valor correspondente a uma hora trabalhada = "))
-horas_trabalhadas = float(input("\nDigite a quantidade de horas trabalhadas = "))
+# ENTRADA DE DADOS - SALÁRIO HORA E HORAS TRABALHADAS
+salario_hora = float(input("\nDigite o valor correspondente a uma hora trabalhada: R$"))
+horas_trabalhadas = float(input("\nDigite a quantidade de horas trabalhadas: "))
 
-# CALCULO DO SALARIO BRUTO E DEFINIÇÃO DA VARIAVEL GLOBAL PIR
+# CÁLCULO DO SALÁRIO BRUTO
 salario_bruto = salario_hora * horas_trabalhadas
-PIR = 0
 
-# ESTRUTURA DE DECISÃO PARA DEFINIÇÃO DA PERCENTAGEM DO PIR
-if (salario_bruto < 1000):
-    PIR = 0.1
-if (salario_bruto >= 1000) and (salario_bruto<3000):
-    PIR = 0.15
-if (salario_bruto>=3000):
-    PIR = 0.225
+# DEFINIÇÃO DOS DESCONTOS
+desconto_aposentadoria = salario_bruto * 0.10
+desconto_imposto_renda = salario_bruto * 0.05
 
-# DEFINIÇÃO DO DESCONTO
-desconto_renda = salario_bruto * PIR
+# CÁLCULO DO SALÁRIO LÍQUIDO
+salario_liquido = salario_bruto - (desconto_aposentadoria + desconto_imposto_renda)
 
-# CALCULO DO SALARIO LIQUIDO
-salario_liquido = salario_bruto - desconto_renda
-
-# SAIDA DE DADOS
-print("\n**************************************************")
+# SAÍDA DE DADOS
+print("\n\n***********************")
+print("*** SOBRE O SALÁRIO ***")
+print("***********************")
 print("\nO correspondente salário bruto é R$",salario_bruto)
-print("\nO valor total do salário liquido é R$",salario_liquido)
+print("\nO valor total do salário líquido é R$",salario_liquido)
+
+print("\n\n**************************")
+print("*** SOBRE OS DESCONTOS ***")
+print("**************************")
+print("\nDesconto para aposentadoria: R$",desconto_aposentadoria)
+print("\nDesconto para imposto de renda: R$",desconto_imposto_renda,"\n\n")
