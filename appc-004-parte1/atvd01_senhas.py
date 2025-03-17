@@ -12,7 +12,7 @@ tentativa = input("\nDigite a senha => ")
 # CONDICIONAL PARA VERIFICAÇÃO DA SENHA E LIBERAÇÃO DE ACESSO E RESPOSTA DO PROGRAMA
 print("\n*********************")
 if (tentativa == senha):
-    print("** ACESSO LIBERADO **")
+    print("** ACESSO PERMITIDO **")
 if (tentativa != senha):
     print("*** ACESSO NEGADO ***")
 print("*********************")

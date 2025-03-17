@@ -12,10 +12,10 @@ lado3 = float(input("Insira o valor do terceiro lado do triângulo: "))
 if (lado1 + lado2 > lado3) and (lado1 + lado3 > lado2) and (lado2 + lado3 > lado1):
     # CLASSIFICAÇÃO DO TRIÂNGULO
     if lado1 == lado2 == lado3:
-        print("\nO triângulo é Equilátero.")
+        print("\nO triângulo é Equilátero, possui os três lados iguais.")
     elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
-        print("\nO triângulo é Isósceles.")
+        print("\nO triângulo é Isósceles, possui dois lados iguais.")
     else:
-        print("\nO triângulo é Escaleno.")
+        print("\nO triângulo é Escaleno, possui três lados diferentes .")
 else:
     print("\nOs valores informados não formam um triângulo.")
