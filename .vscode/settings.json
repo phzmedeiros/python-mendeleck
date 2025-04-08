@@ -13,5 +13,6 @@
             "database": "database-fa",
             "username": "root"
         }
-    ]
+    ],
+    "python.analysis.autoImportCompletions": true
 }
