@@ -46,8 +46,7 @@ for i in range(3):
 # -------------------------------
 # Exercício 3
 tabela = [
-    ["Produto", "Farinha [g]", "Açúcar [g]", "Frutas [g]", "Leite [L]", "Aveia [g]",
-     "Fermento [g]", "Creme [g]", "Nozes [g]", "Chocolate [g]", "Avelã [g]", "Manteiga [g]", "Ovos [unidade]"],
+    ["Produto", "Farinha [g]", "Açúcar [g]", "Frutas [g]", "Leite [L]", "Aveia [g]", "Fermento [g]", "Creme [g]", "Nozes [g]", "Chocolate [g]", "Avelã [g]", "Manteiga [g]", "Ovos [unidade]"],
     ["Macarons", 25, 3, 5, 0.03, 2, 2, 5, 0, 5, 1, 5, 0.2],
     ["Profiteroles", 30, 2, 1, 0.035, 0, 1, 2, 0, 2, 2, 5, 0.4],
     ["Mille Feuille", 20, 4, 2, 0.05, 0, 1, 5, 1, 5, 5, 5, 0.5],
