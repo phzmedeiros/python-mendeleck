@@ -1,0 +1,4 @@
+nomeproduto,quantidade,precounitario
+BATON               | 30.00|     16.78
+BARBEADOR           | 45.00|    112.67
+SABONETE            |567.00|      5.78

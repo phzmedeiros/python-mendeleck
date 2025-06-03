@@ -1,5 +1,4 @@
 inadimplentes = ["João Silva", "Maria Souza", "Carlos Pereira"]
-
 def verificar_emprestimo(nome, idade, renda):
     if nome in inadimplentes:
         return "inadimplente"

@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr  8 09:15:24 2025
+
+@author: p226646
+"""
+
+#DESENVOLVER UMA APLICACAO DE SOFTWARE
+#PARA LER UMA FRASE E CONTAR OS ESPACOS
+#EM BRANCO
